@@ -19,3 +19,14 @@ Visit our [home page](https://taiga.moe) for more information. See the [guidelin
 ## License
 
 Taiga is licensed under [GNU General Public License v3](https://www.gnu.org/licenses/gpl-3.0.html).
+
+## Adding new players
+
+From [https://github.com/erengy/anisthesia/issues/6#issuecomment-761685887](https://github.com/erengy/anisthesia/issues/6#issuecomment-761685887)
+
+First, please download [WinSpy++](https://www.catch22.net/software/winspy) and drag its finder over mpc-qt's window to read the class name. It should be something like Qt5QWindowIcon or Qt5151QWindowIcon. In that case, the following should work:
+
+1. Download players.anisthesia and copy it to Taiga\data\players.anisthesia.
+2. Open the file with a text editor and find the Media Player Classic Qute Theater section.
+3. Replace Qt5QWindowIcon with ^Qt.+QWindowIcon and save the file.
+4. Restart Taiga.
