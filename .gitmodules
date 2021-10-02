@@ -4,7 +4,7 @@
 
 [submodule "anisthesia"]
 	path = deps/src/anisthesia
-	url = https://github.com/erengy/anisthesia.git
+	url = https://github.com/swiftcitrus/anisthesia.git
 
 [submodule "anitomy"]
 	path = deps/src/anitomy
